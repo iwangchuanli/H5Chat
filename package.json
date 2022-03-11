@@ -1,0 +1,28 @@
+{
+  "name": "h5Chat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": {
+    "name": "yunli",
+    "email": "office@yunli.info"
+  },
+  "dependencies": {
+    "body-parser": "~1.12.4",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.1",
+    "express": "~4.12.4",
+    "express-session": "^1.13.0",
+    "morgan": "~1.5.3",
+    "multiparty": "^4.1.2",
+    "mysql": "^2.10.2",
+    "mysql-queues": "^1.0.0",
+    "nodemailer": "^2.3.2",
+    "serve-favicon": "~2.2.1",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {}
+}
